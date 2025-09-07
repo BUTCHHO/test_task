@@ -12,3 +12,4 @@ class User(Entity):
     name: UserName
     password_hash: UserPasswordHash
     role: UserRoles
+    is_active: bool
